@@ -49,6 +49,7 @@
   - **Technologies:** Computer Vision, Arduino  
 
 ## Certifications
+
 - **Excel/VBA for Creative Problem Solving**  
   - *Issued by:* **University of Colorado Boulder** (via Coursera) | *Instructor:* Charlie Nuttelman, Ph.D. | *Date:* Sep 15, 2023  
   - Covered essential VBA programming skills for Excel, including user-defined functions, string functions, iterating through worksheets/workbooks, and creating user forms.  
