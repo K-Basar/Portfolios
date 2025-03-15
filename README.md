@@ -1,7 +1,7 @@
 # 📌 Md. Khairul Basar
 
 <p align="center">
-  <img src="https://your-banner-image-url.com" alt="Banner" width="30%">
+  <img src="assets/images/Circle official.png" alt="Banner" width="30%">
 </p>
 
 🎓 **Industrial & Production Engineer**  
