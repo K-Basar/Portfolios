@@ -67,5 +67,5 @@
 </div>
 
 <!-- Add padding to the body content to prevent overlap -->
-<div style="padding-top: 60px;">
+<div style="padding-top: 200px;">
 </div>
