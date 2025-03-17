@@ -48,22 +48,19 @@
 
 
 <div style="position: fixed; top: 0; right: 0; height: 100%; background-color: white; 
-            z-index: 1000; padding: 10px; box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);">
-    <div style="display: flex; flex-direction: column; gap: 10px;">
-        <a href="#contact" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; 
-                                  color: white; border-radius: 5px; transition: 0.3s;">Contact</a>
-        <a href="#education" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; 
-                                    color: white; border-radius: 5px; transition: 0.3s;">Education</a>
-        <a href="#work-experience" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; 
-                                          color: white; border-radius: 5px; transition: 0.3s;">Work Experience</a>
-        <a href="#projects" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; 
-                                   color: white; border-radius: 5px; transition: 0.3s;">Projects</a>
-        <a href="#certifications" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; 
-                                         color: white; border-radius: 5px; transition: 0.3s;">Certifications</a>
-        <a href="#interests" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; 
-                                    color: white; border-radius: 5px; transition: 0.3s;">Interests</a>
+            z-index: 1000; padding: 10px; box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); width: 120px;"> <!-- Reduced navbar width -->
+    <div style="display: flex; flex-direction: column; gap: 8px;"> <!-- Reduced gap between buttons -->
+        <a href="#contact" style="text-decoration: none; padding: 8px 12px; background-color: #6c757d; 
+                                  color: white; border-radius: 5px; transition: 0.3s; font-size: 14px;">Contact</a> <!-- Smaller padding and font size -->
+        <a href="#education" style="text-decoration: none; padding: 8px 12px; background-color: #6c757d; 
+                                    color: white; border-radius: 5px; transition: 0.3s; font-size: 14px;">Education</a>
+        <a href="#work-experience" style="text-decoration: none; padding: 8px 12px; background-color: #6c757d; 
+                                          color: white; border-radius: 5px; transition: 0.3s; font-size: 14px;">Work Experience</a>
+        <a href="#projects" style="text-decoration: none; padding: 8px 12px; background-color: #6c757d; 
+                                   color: white; border-radius: 5px; transition: 0.3s; font-size: 14px;">Projects</a>
+        <a href="#certifications" style="text-decoration: none; padding: 8px 12px; background-color: #6c757d; 
+                                         color: white; border-radius: 5px; transition: 0.3s; font-size: 14px;">Certifications</a>
+        <a href="#interests" style="text-decoration: none; padding: 8px 12px; background-color: #6c757d; 
+                                    color: white; border-radius: 5px; transition: 0.3s; font-size: 14px;">Interests</a>
     </div>
 </div>
-
-<!-- Add padding to the body content to prevent overlap -->
-<div style="margin-right: 150px;"> <!-- Adjust margin to prevent content from being hidden behind the buttons -->
