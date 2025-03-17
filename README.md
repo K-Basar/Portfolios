@@ -1,12 +1,5 @@
-<!-- Add padding to the body content to prevent overlap -->
-
 <div style="padding-top: 200px;">
- 
-</div>
-
-
-
-# Contact <a id="contact"></a>
+ # Contact <a id="contact"></a>
 
 - **Email:** [kbasar.bq@gmail.com](mailto:kbasar.bq@gmail.com)  
 - **LinkedIn:** [Md. Khairul Basar](https://www.linkedin.com/in/md-khairul-basar-b19282247/)  
@@ -55,6 +48,7 @@
 **Poetry**, Chess, Reading, Travelling
 
 
+</div>
 <div style="position: fixed; top: 0; left: 0; width: 100%; background-color: white; 
             z-index: 1000; padding: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
     <div style="display: flex; gap: 10px; justify-content: center;">
