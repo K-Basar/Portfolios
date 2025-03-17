@@ -1,7 +1,4 @@
-
-<div style="margin-top: 70px;"> <!-- Add margin to prevent content from being hidden behind the fixed navbar -->
-</div> <!-- Close the div for margin-top -->
-# Contact <a id="contact"></a>
+## Contact <a id="contact"></a>
 
 - **Email:** [kbasar.bq@gmail.com](mailto:kbasar.bq@gmail.com)  
 - **LinkedIn:** [Md. Khairul Basar](https://www.linkedin.com/in/md-khairul-basar-b19282247/)  
