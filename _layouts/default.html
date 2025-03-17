@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: "en-US" }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <style>
         /* Sidebar styling */
         .sidebar {
@@ -42,6 +41,7 @@
             padding: 20px;
         }
     </style>
+    {{ site.head }}
 </head>
 <body>
     <!-- Sidebar -->
