@@ -1,4 +1,7 @@
+<!-- Add padding to the body content to prevent overlap -->
 
+<div style="padding-top: 200px;">
+</div>
 # Contact <a id="contact"></a>
 
 - **Email:** [kbasar.bq@gmail.com](mailto:kbasar.bq@gmail.com)  
@@ -64,8 +67,4 @@
         <a href="#interests" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; 
                                     color: white; border-radius: 5px; transition: 0.3s;">Interests</a>
     </div>
-</div>
-
-<!-- Add padding to the body content to prevent overlap -->
-<div style="padding-top: 200px;">
 </div>
