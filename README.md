@@ -47,20 +47,13 @@
 **Poetry**, Chess, Reading, Travelling
 
 
-<div style="position: fixed; top: auto; bottom: 0; right: 0; height: auto; background-color: white;
-            z-index: 1000; padding: 10px; box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); width: 120px;">
-    <div style="display: flex; flex-direction: column; gap: 8px;">
-        <a href="#contact" style="text-decoration: none; padding: 8px 12px; background-color: #6c757d;
-                                    color: white; border-radius: 5px; transition: 0.3s; font-size: 14px;">Contact</a>
-        <a href="#education" style="text-decoration: none; padding: 8px 12px; background-color: #6c757d;
-                                        color: white; border-radius: 5px; transition: 0.3s; font-size: 14px;">Education</a>
-        <a href="#work-experience" style="text-decoration: none; padding: 8px 12px; background-color: #6c757d;
-                                            color: white; border-radius: 5px; transition: 0.3s; font-size: 14px;">Work Experience</a>
-        <a href="#projects" style="text-decoration: none; padding: 8px 12px; background-color: #6c757d;
-                                       color: white; border-radius: 5px; transition: 0.3s; font-size: 14px;">Projects</a>
-        <a href="#certifications" style="text-decoration: none; padding: 8px 12px; background-color: #6c757d;
-                                            color: white; border-radius: 5px; transition: 0.3s; font-size: 14px;">Certifications</a>
-        <a href="#interests" style="text-decoration: none; padding: 8px 12px; background-color: #6c757d;
-                                        color: white; border-radius: 5px; transition: 0.3s; font-size: 14px;">Interests</a>
+<div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: white; z-index: 1000; padding: 10px; box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);">
+    <div style="display: flex; gap: 10px; justify-content: center;">
+        <a href="#contact" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Contact</a>
+        <a href="#education" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Education</a>
+        <a href="#work-experience" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Work Experience</a>
+        <a href="#projects" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Projects</a>
+        <a href="#certifications" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Certifications</a>
+        <a href="#interests" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Interests</a>
     </div>
 </div>
