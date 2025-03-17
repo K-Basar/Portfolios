@@ -50,13 +50,24 @@
 **Poetry**, Chess, Reading, Travelling
 
 
-<div style="position: fixed; top: 0; left: 0; width: 100%; background-color: white; z-index: 1000; padding: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
-    <div style="display: flex; gap: 10px; justify-content: center;">
-        <a href="#contact" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Contact</a>
-        <a href="#education" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Education</a>
-        <a href="#work-experience" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Work Experience</a>
-        <a href="#projects" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Projects</a>
-        <a href="#certifications" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Certifications</a>
-        <a href="#interests" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Interests</a>
+Copy
+<div style="position: fixed; top: 0; right: 0; height: 100%; background-color: white; 
+            z-index: 1000; padding: 10px; box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);">
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+        <a href="#contact" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; 
+                                  color: white; border-radius: 5px; transition: 0.3s;">Contact</a>
+        <a href="#education" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; 
+                                    color: white; border-radius: 5px; transition: 0.3s;">Education</a>
+        <a href="#work-experience" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; 
+                                          color: white; border-radius: 5px; transition: 0.3s;">Work Experience</a>
+        <a href="#projects" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; 
+                                   color: white; border-radius: 5px; transition: 0.3s;">Projects</a>
+        <a href="#certifications" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; 
+                                         color: white; border-radius: 5px; transition: 0.3s;">Certifications</a>
+        <a href="#interests" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; 
+                                    color: white; border-radius: 5px; transition: 0.3s;">Interests</a>
     </div>
 </div>
+
+<!-- Add padding to the body content to prevent overlap -->
+<div style="margin-right: 150px;"> <!-- Adjust margin to prevent content from being hidden behind the buttons -->
