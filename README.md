@@ -59,4 +59,5 @@
     </div>
 </div>
 
-<div style="margin-top: 70px;"> <-- Add margin to prevent content from being hidden behind the fixed navbar -->
+<div style="margin-top: 70px;">
+</div>
