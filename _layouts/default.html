@@ -8,23 +8,18 @@
 </head>
 <body>
     <div class="wrapper">
-        <header style="text-align: center;">
-            <!-- Name -->
-            <h1>{{ site.title }}</h1>
-            
-            <!-- Profile Picture -->
-            <img src="assets/images/Circle official.png" alt="Profile Picture" style="border-radius: 50%; width: 150px; height: 150px;">
-            
-            <!-- Description -->
-            <p>{{ site.description }}</p>
-
-            <!-- Navigation Buttons -->
-            <div style="margin-top: 15px;">
-                <a href="#education" class="btn">Education</a>
-                <a href="#work-experience" class="btn">Work Experience</a>
-                <a href="#projects" class="btn">Projects</a>
-                <a href="#interests" class="btn">Interests</a>
+        <header>
+            <div style="text-align: center;">
+                <img src="{{ site.logo }}" alt="Profile Picture" style="border-radius: 50%; width: 150px; height: 150px;">
+                
+                <div style="margin-top: 15px;">
+                    <a href="#education" class="btn">Education</a>
+                    <a href="#work-experience" class="btn">Work Experience</a>
+                    <a href="#projects" class="btn">Projects</a>
+                    <a href="#interests" class="btn">Interests</a>
+                </div>
             </div>
+            <p>{{ site.description }}</p>
         </header>
         
         <section>
