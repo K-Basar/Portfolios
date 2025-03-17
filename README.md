@@ -50,11 +50,11 @@
 
 <div style="position: fixed; top: 0; left: 0; width: 100%; background-color: white; z-index: 1000; padding: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
     <div style="display: flex; gap: 10px; justify-content: center;">
-        <a href="#contact" style="text-decoration: none; padding: 10px 15px; background-color: #007bff; color: white; border-radius: 5px;">Contact</a>
-        <a href="#education" style="text-decoration: none; padding: 10px 15px; background-color: #28a745; color: white; border-radius: 5px;">Education</a>
-        <a href="#work-experience" style="text-decoration: none; padding: 10px 15px; background-color: #dc3545; color: white; border-radius: 5px;">Work Experience</a>
-        <a href="#projects" style="text-decoration: none; padding: 10px 15px; background-color: #ffc107; color: black; border-radius: 5px;">Projects</a>
-        <a href="#certifications" style="text-decoration: none; padding: 10px 15px; background-color: #17a2b8; color: white; border-radius: 5px;">Certifications</a>
+        <a href="#contact" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Contact</a>
+        <a href="#education" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Education</a>
+        <a href="#work-experience" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Work Experience</a>
+        <a href="#projects" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Projects</a>
+        <a href="#certifications" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Certifications</a>
         <a href="#interests" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Interests</a>
     </div>
 </div>
