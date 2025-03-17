@@ -47,7 +47,6 @@
 **Poetry**, Chess, Reading, Travelling
 
 
-Copy
 <div style="position: fixed; top: 0; right: 0; height: 100%; background-color: white; 
             z-index: 1000; padding: 10px; box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);">
     <div style="display: flex; flex-direction: column; gap: 10px;">
