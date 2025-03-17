@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <style>
         /* Sidebar styling */
         .sidebar {
             position: fixed;
             top: 0;
             left: 0;
-            width: 200px; /* Adjust width as needed */
+            width: 200px;
             height: 100%;
             background-color: #f4f4f4;
             padding: 20px;
             box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
         }
 
         /* Button styling */
@@ -36,7 +38,7 @@
 
         /* Main content styling */
         .content {
-            margin-left: 240px; /* Adjust based on sidebar width */
+            margin-left: 240px;
             padding: 20px;
         }
     </style>
