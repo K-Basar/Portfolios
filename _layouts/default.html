@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div style="text-align: center;">
+                <img src="{{ site.logo }}" alt="Profile Picture" style="border-radius: 50%; width: 150px; height: 150px;">
+                
+                <div style="margin-top: 15px;">
+                    <a href="#education" class="btn">Education</a>
+                    <a href="#work-experience" class="btn">Work Experience</a>
+                    <a href="#projects" class="btn">Projects</a>
+                    <a href="#interests" class="btn">Interests</a>
+                </div>
+            </div>
+            <p>{{ site.description }}</p>
+        </header>
+        
+        <section>
+            {{ content }}
+        </section>
+    </div>
+</body>
+</html>
