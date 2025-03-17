@@ -11,7 +11,7 @@
 
 <div style="margin-top: 70px;"> <!-- Add margin to prevent content from being hidden behind the fixed navbar -->
 
-# Contact
+# Contact <a id="contact"></a>
 
 - **Email:** [kbasar.bq@gmail.com](mailto:kbasar.bq@gmail.com)  
 - **LinkedIn:** [Md. Khairul Basar](https://www.linkedin.com/in/md-khairul-basar-b19282247/)  
@@ -19,7 +19,7 @@
 
 ---
 
-## Education
+## Education <a id="education"></a>
 
 - **B.Sc., Industrial & Production Engineering (IPE)**  
   **Shahjalal University of Science and Technology, Sylhet (SUST)**  
@@ -27,7 +27,7 @@
 
 ---
 
-## Work Experience
+## Work Experience <a id="work-experience"></a>
 
 - **Remote Employee @ Industrial 3D Solutions (2024 - Present)**  
   - Developed custom Excel tools and automated VBA scripts to enhance team productivity.  
@@ -35,7 +35,7 @@
 
 ---
 
-## Projects
+## Projects <a id="projects"></a>
 
 - **Traffic Simulation & Optimization at LamaBazar Intersection**  
   - **Conference Paper:** [8th International Conference on Engineering Research, Innovation and Education](#)  
@@ -45,7 +45,7 @@
 
 ---
 
-## Certifications
+## Certifications <a id="certifications"></a>
 
 - **Excel/VBA for Creative Problem Solving**  
   - *Issued by:* **University of Colorado Boulder** (via Coursera) | *Instructor:* Charlie Nuttelman, Ph.D. | *Date:* Sep 15, 2023  
@@ -55,6 +55,8 @@
 
 ---
 
-## Interests
+## Interests <a id="interests"></a>
 
 **Poetry**, Chess, Reading, Travelling
+
+</div> <!-- Close the div for margin-top -->
