@@ -1,7 +1,7 @@
 ## Contact <a id="contact"></a>
 - **Email:** [kbasar.bq@gmail.com](mailto:kbasar.bq@gmail.com)  
 - **LinkedIn:** [Md. Khairul Basar](https://www.linkedin.com/in/md-khairul-basar-b19282247/)  
-- **WhatsApp:** [+880 1822-887922](https://wa.me/+8801822887922/)
+- **WhatsApp:** [+880 1822 887922](https://wa.me/+8801822887922/)
 
 ## Education <a id="education"></a>
 - **B.Sc., Industrial & Production Engineering (IPE)**  
