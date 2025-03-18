@@ -168,6 +168,13 @@
 
 ---
 
+
+
+
+
+
+
+
 <div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: white; z-index: 1000; padding: 10px; box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);">
     <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
         <a href="#contact" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Contact</a>
