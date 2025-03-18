@@ -179,7 +179,5 @@
         <a href="#certifications" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Certifications</a>
         <a href="#technical-skills" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Technical Skills</a>
         <a href="#industrial-training" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Industrial Training</a>
-        <a href="#interests" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">Interests</a>
-        <a href="#references" style="text-decoration: none; padding: 10px 15px; background-color: #6c757d; color: white; border-radius: 5px;">References</a>
     </div>
 </div>
