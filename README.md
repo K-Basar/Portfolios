@@ -86,8 +86,14 @@
   - *Issued by:* **DataCamp** | *Instructor:* Jonathan Cornelissen, CEO | *Date:* Mar 16, 2025  
   - Covered foundational deep learning concepts using PyTorch, including tensors, automatic differentiation, neural networks, and model training.  
   - Hands-on learning experience with practical implementation of deep learning models.  
-  - **Verification:** *(Include verification link if available)*  
+  - **Verification:** [Verify Certificate](https://www.datacamp.com/completed/statement-of-accomplishment/course/b49d1a288c93a86143eb3923bf9f448d7b5ee515)  
 
+- **Power BI and Tableau for Data Visualization [2-in-1 Bundle]**  
+  - *Issued by:* **Udemy** | *Instructor:* Start-Tech Academy | *Date:* March 29, 2025  
+  - Completed a comprehensive 17.5-hour course covering business intelligence and data visualization using Power BI and Tableau.  
+  - Gained hands-on experience in creating interactive dashboards, data cleaning, and performing data analysis for actionable insights.  
+  - **Verification:** [Verify Certificate](https://www.udemy.com/certificate/UC-58ead20f-32a4-4347-9d6a-0419c59d14a1/)
+ 
 - **Python Data Structures**  
   - *Issued by:* **University of Michigan (via Coursera)** | *Instructor:* Charles Severance | *Date:* Jul 19, 2023  
   - Covered essential Python data structures, including lists, dictionaries, tuples, and sets, and their applications in solving real-world problems.  
@@ -130,7 +136,8 @@
   - Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, PyTorch)
   - Excel VBA
   - Microsoft Excel
-  - Microsoft Power BI  
+  - Microsoft Power BI
+  - Tableau
 - **Simulation & Modeling:**
   - Arena Simulation Software
   - AutoCAD
