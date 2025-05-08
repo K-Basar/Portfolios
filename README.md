@@ -93,6 +93,11 @@
   - Completed a comprehensive 17.5-hour course covering business intelligence and data visualization using Power BI and Tableau.  
   - Gained hands-on experience in creating interactive dashboards, data cleaning, and performing data analysis for actionable insights.  
   - **Verification:** [Verify Certificate](https://www.udemy.com/certificate/UC-58ead20f-32a4-4347-9d6a-0419c59d14a1/)
+
+- **Six Sigma White Belt**  
+  - *Issued by:* **Council for Six Sigma Certification (CSSC)** | *Date:* April 25th, 2025  
+  - Successfully completed and demonstrated proficiency in the curriculum set forth by the Council for Six Sigma Certification to be awarded the title of Certified White Belt.  
+  - Certification Number: kWGBvKBpyw  
  
 - **Python Data Structures**  
   - *Issued by:* **University of Michigan (via Coursera)** | *Instructor:* Charles Severance | *Date:* Jul 19, 2023  
