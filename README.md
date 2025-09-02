@@ -10,7 +10,7 @@
 
 - **B.Sc., Industrial & Production Engineering (IPE)**  
   **Shahjalal University of Science and Technology, Sylhet (SUST)**  
-  (2020-Present) | CGPA: **3.45/4.00** (Up to 7th semester)
+  (Feb 2020- Aug 2025) | CGPA: **3.45/4.00** (Up to 7th semester)
 
 - **HSC**,  Sunflower School and College, Saidpur | GPA: 4.92/5.00
 
@@ -18,14 +18,16 @@
 
 ## Work Experience <a id="work-experience"></a>
 
-- **Remote Employee @ Industrial 3D Solutions (2024 - Present)**  
-  - Developed custom Excel tools and automated VBA scripts to enhance team productivity.  
-  - Assisted in the procurement and supply of laboratory products for academic institutions, ensuring streamlined vendor coordination.
+- **Internship — Walton Hi-Tech Industries PLC (May 04 – May 31, 2025)**  
+  - Gained hands-on experience in the Refrigerator Manufacturing Unit, focusing on manufacturing technology, VSM, SMV, SAM, Line balancing, 5S, Kanban, and OEE.
+
+- **Remote Employee @ Industrial 3D Solutions (December 2024 - June 2025)**  
+  - Provided technical support by creating custom Excel tools and functions to boost team productivity. Assisted in supplying lab products to universities by coordinating with vendors and institutions.
 
 ---
 
 ## Organizational Experience <a id="organizational-experience">
-- **Leader, Cultural Team, IKSS** (_2024 - Present_)
+- **Leader, Cultural Team, IKSS** (_2024 - 2025_)
   - Led event planning and execution, fostering teamwork and engagement.
 - **Executive Member, OBAT Canada Saidpur Branch** (_2020-2021_)
   - Developed professional communication skills and successfully executed multiple programs.
@@ -41,6 +43,18 @@
 ---
 
 ## Projects <a id="projects"></a>
+
+- **Pre-Assembly Line Analysis and Line Balancing at Walton Hi-Tech Industries Ltd.**
+ - Conducted a detailed **Time Study** and **Motion Analysis** on the refrigerator pre-assembly line.
+ - Applied **line balancing** techniques to identify bottlenecks and redistribute workloads effectively.
+ - Achieved a significant improvement in line efficiency and reduced idle time.
+ - Technologies: Excel, Line Balancing, Work Study, Industrial Engineering
+
+- **Using Machine Learning to Predict Worker Task Completion Time and Optimizing Workflow for Line Balancing with Gurobi**
+ - Developed an ML-based predictive model to estimate **worker-specific task completion times**.
+ - Integrated the predictions into a Gurobi optimization model to minimize total makespan through efficient task allocation.
+ - Enabled better resource utilization and improved production throughput.
+ - Technologies: Python (Scikit-learn, Pandas), Gurobi, Machine Learning, Optimization
 
 - **Traffic Simulation & Optimization at LamaBazar Intersection**  
   - **Conference Paper:** [8th International Conference on Engineering Research, Innovation and Education](#)  
@@ -71,6 +85,13 @@
 ---
 
 ## Certifications <a id="certifications"></a>
+
+- **Introduction to Data Science with Python**  
+  - *Issued by:* **EDGE Bangladesh** | *Date:* Aug 10, 2024   
+  - Covered the **fundamentals of data science** and **hands-on Python programming** for data analysis.  
+  - Learned to work with **data preprocessing, visualization, and exploratory data analysis (EDA)** using real-world datasets.  
+  - Introduced to **machine learning basics**, including model building and evaluation techniques.  
+  - **Technologies & Tools:** Python (NumPy, Pandas, Matplotlib, Seaborn), Jupyter Notebook, Data Visualization, Machine Learning Basics  
 
 - **Excel/VBA for Creative Problem Solving**  
   - *Issued by:* **University of Colorado Boulder (via Coursera)** | *Instructor:* Charlie Nuttelman, Ph.D. | *Date:* Sep 15, 2023  
