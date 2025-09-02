@@ -18,21 +18,46 @@
 
 ## Work Experience <a id="work-experience"></a>
 
-- **Internship — Walton Hi-Tech Industries PLC (May 04 – May 31, 2025)**  
-  - Gained hands-on experience in the Refrigerator Manufacturing Unit, focusing on manufacturing technology, VSM, SMV, SAM, Line balancing, 5S, Kanban, and OEE.
+<details>
+  <summary><strong>Internship — Walton Hi-Tech Industries PLC (May 04 – May 31, 2025)</strong></summary>
+  <ul>
+    <li>Gained hands-on experience in the Refrigerator Manufacturing Unit.</li>
+    <li>Worked on <strong>manufacturing technology, VSM, SMV, SAM, Line balancing, 5S, Kanban, and OEE</strong>.</li>
+  </ul>
+</details>
 
-- **Remote Employee @ Industrial 3D Solutions (December 2024 - June 2025)**  
-  - Provided technical support by creating custom Excel tools and functions to boost team productivity. Assisted in supplying lab products to universities by coordinating with vendors and institutions.
+<details>
+  <summary><strong>Remote Employee @ Industrial 3D Solutions (December 2024 - June 2025)</strong></summary>
+  <ul>
+    <li>Provided technical support by creating <strong>custom Excel tools</strong> and automating <strong>VBA functions</strong> to boost team productivity.</li>
+    <li>Assisted in <strong>supplying laboratory products</strong> to universities by coordinating with vendors and institutions.</li>
+  </ul>
+</details>
 
 ---
 
 ## Organizational Experience <a id="organizational-experience">
-- **Leader, Cultural Team, IKSS** (_2024 - 2025_)
-  - Led event planning and execution, fostering teamwork and engagement.
-- **Executive Member, OBAT Canada Saidpur Branch** (_2020-2021_)
-  - Developed professional communication skills and successfully executed multiple programs.
-- **Executive Member, OBAT Tutorial** (_2020-2021_)
-  - Designed and conducted tutorial sessions, improving learning effectiveness.
+<details>
+  <summary><strong>Leader, Cultural Team, IKSS (2024 - 2025)</strong></summary>
+  <ul>
+    <li>Led event planning and execution, fostering teamwork and engagement.</li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Executive Member, OBAT Canada Saidpur Branch (2020 - 2021)</strong></summary>
+  <ul>
+    <li>Developed professional communication skills and successfully executed multiple programs.</li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Executive Member, OBAT Tutorial (2020 - 2021)</strong></summary>
+  <ul>
+    <li>Designed and conducted tutorial sessions, improving learning effectiveness.</li>
+  </ul>
+</details>
+
 
 ---
 
@@ -44,113 +69,143 @@
 
 ## Projects <a id="projects"></a>
 
-- **Pre-Assembly Line Analysis and Line Balancing at Walton Hi-Tech Industries Ltd.**
-  - Conducted a detailed **Time Study** and **Motion Analysis** on the refrigerator pre-assembly line.
-  - Applied **line balancing** techniques to identify bottlenecks and redistribute workloads effectively.
-  - Achieved a significant improvement in line efficiency and reduced idle time.
-  - Technologies: Excel, Line Balancing, Work Study, Industrial Engineering
+<details>
+  <summary><strong>Pre-Assembly Line Analysis and Line Balancing at Walton Hi-Tech Industries Ltd.</strong></summary>
+  <ul>
+    <li>Conducted a detailed <strong>Time Study</strong> and <strong>Motion Analysis</strong> on the refrigerator pre-assembly line.</li>
+    <li>Applied <strong>line balancing</strong> techniques to identify bottlenecks and redistribute workloads effectively.</li>
+    <li>Achieved a significant improvement in line efficiency and reduced idle time.</li>
+    <li><strong>Technologies:</strong> Excel, Line Balancing, Work Study, Industrial Engineering</li>
+  </ul>
+</details>
 
-- **Using Machine Learning to Predict Worker Task Completion Time and Optimizing Workflow for Line Balancing with Gurobi**
-  - Developed an ML-based predictive model to estimate **worker-specific task completion times**.
-  - Integrated the predictions into a Gurobi optimization model to minimize total makespan through efficient task allocation.
-  - Enabled better resource utilization and improved production throughput.
-  - Technologies: Python (Scikit-learn, Pandas), Gurobi, Machine Learning, Optimization
+<details>
+  <summary><strong>Using Machine Learning to Predict Worker Task Completion Time and Optimizing Workflow for Line Balancing with Gurobi</strong></summary>
+  <ul>
+    <li>Developed an ML-based predictive model to estimate <strong>worker-specific task completion times</strong>.</li>
+    <li>Integrated the predictions into a <strong>Gurobi optimization model</strong> to minimize total makespan through efficient task allocation.</li>
+    <li>Enabled better resource utilization and improved production throughput.</li>
+    <li><strong>Technologies:</strong> Python (Scikit-learn, Pandas), Gurobi, Machine Learning, Optimization</li>
+  </ul>
+</details>
 
-- **Traffic Simulation & Optimization at LamaBazar Intersection**  
-  - **Conference Paper:** [8th International Conference on Engineering Research, Innovation and Education](#)  
-  - Developed an **Arena simulation model** to optimize traffic flow at a congested **4-way intersection** in Sylhet.  
-  - Proposed **dedicated turning lanes**, reducing waiting time by **50-60%** and improving lane utilization to **92%**.  
-  - **Technologies:** Arena Simulation, Python, Excel  
+<details>
+  <summary><strong>Traffic Simulation & Optimization at LamaBazar Intersection</strong></summary>
+  <ul>
+    <li><strong>Conference Paper:</strong> 8th International Conference on Engineering Research, Innovation and Education</li>
+    <li>Developed an <strong>Arena simulation model</strong> to optimize traffic flow at a congested <strong>4-way intersection</strong> in Sylhet.</li>
+    <li>Proposed <strong>dedicated turning lanes</strong>, reducing waiting time by <strong>50–60%</strong> and improving lane utilization to <strong>92%</strong>.</li>
+    <li><strong>Technologies:</strong> Arena Simulation, Python, Excel</li>
+  </ul>
+</details>
 
-- **Dual-Prediction System** for Traffic Density & Vehicle Energy Consumption Using **Machine Learning**  
-  - Built a **Python-based ML model** for **real-time traffic density and fuel consumption prediction**.  
-  - Aids in **route optimization and fuel efficiency** for urban transportation.  
-  - **Technologies:** Python (Pandas, Scikit-learn), Machine Learning, Data Science  
+<details>
+  <summary><strong>Dual-Prediction System for Traffic Density & Vehicle Energy Consumption Using Machine Learning</strong></summary>
+  <ul>
+    <li>Built a <strong>Python-based ML model</strong> for <strong>real-time traffic density and fuel consumption prediction</strong>.</li>
+    <li>Aids in <strong>route optimization</strong> and <strong>fuel efficiency</strong> for urban transportation.</li>
+    <li><strong>Technologies:</strong> Python (Pandas, Scikit-learn), Machine Learning, Data Science</li>
+  </ul>
+</details>
 
-- **Bottleneck Analysis & Scheduling Optimization at Premium Fish & Agro Ind. Ltd.**  
-  - Conducted a **bottleneck analysis** of the production floor using **data-driven methods**.  
-  - Applied **scheduling techniques** to reduce **delays and increase efficiency**.  
-  - **Technologies:** Excel, Operations Research, Scheduling Algorithms  
+<details>
+  <summary><strong>Bottleneck Analysis & Scheduling Optimization at Premium Fish & Agro Ind. Ltd.</strong></summary>
+  <ul>
+    <li>Conducted a <strong>bottleneck analysis</strong> of the production floor using <strong>data-driven methods</strong>.</li>
+    <li>Applied <strong>scheduling techniques</strong> to reduce <strong>delays and increase efficiency</strong>.</li>
+    <li><strong>Technologies:</strong> Excel, Operations Research, Scheduling Algorithms</li>
+  </ul>
+</details>
 
-- **Excel-ChatGPT Integration: Automating Web Scraping & AI Responses with VBA**  
-  - Integrated **ChatGPT with Excel VBA** to automate **web scraping and instant AI responses**.  
-  - Streamlined data extraction and **enhanced workflow automation**.  
-  - **Technologies:** Excel VBA, OpenAI API, Web Scraping  
+<details>
+  <summary><strong>Excel-ChatGPT Integration: Automating Web Scraping & AI Responses with VBA</strong></summary>
+  <ul>
+    <li>Integrated <strong>ChatGPT with Excel VBA</strong> to automate <strong>web scraping</strong> and instant AI responses.</li>
+    <li>Streamlined data extraction and <strong>enhanced workflow automation</strong>.</li>
+    <li><strong>Technologies:</strong> Excel VBA, OpenAI API, Web Scraping</li>
+  </ul>
+</details>
 
-- **Object Detection Safety System for Industrial Machinery**  
-  - Designed an **Object detection system** to enhance workplace safety.  
-  - Prevents machinery-related hazards by identifying risky movements in real-time.  
-  - **Technologies:** Computer Vision, Arduino
+<details>
+  <summary><strong>Object Detection Safety System for Industrial Machinery</strong></summary>
+  <ul>
+    <li>Designed an <strong>Object Detection System</strong> to enhance workplace safety.</li>
+    <li>Prevents machinery-related hazards by identifying risky movements in real time.</li>
+    <li><strong>Technologies:</strong> Computer Vision, Arduino</li>
+  </ul>
+</details>
+
 
 ---
 
 ## Certifications <a id="certifications"></a>
 
-- **Introduction to Data Science with Python**  
-  - *Issued by:* **EDGE Bangladesh** | *Date:* Aug 10, 2024   
-  - Covered the **fundamentals of data science** and **hands-on Python programming** for data analysis.  
-  - Learned to work with **data preprocessing, visualization, and exploratory data analysis (EDA)** using real-world datasets.  
-  - Introduced to **machine learning basics**, including model building and evaluation techniques.  
-  - **Technologies & Tools:** Python (NumPy, Pandas, Matplotlib, Seaborn), Jupyter Notebook, Data Visualization, Machine Learning Basics  
+<details>
+  <summary><strong>Pre-Assembly Line Analysis and Line Balancing at Walton Hi-Tech Industries Ltd.</strong></summary>
+  <ul>
+    <li>Conducted a detailed <strong>Time Study</strong> and <strong>Motion Analysis</strong> on the refrigerator pre-assembly line.</li>
+    <li>Applied <strong>line balancing</strong> techniques to identify bottlenecks and redistribute workloads effectively.</li>
+    <li>Achieved a significant improvement in line efficiency and reduced idle time.</li>
+    <li><strong>Technologies:</strong> Excel, Line Balancing, Work Study, Industrial Engineering</li>
+  </ul>
+</details>
 
-- **Excel/VBA for Creative Problem Solving**  
-  - *Issued by:* **University of Colorado Boulder (via Coursera)** | *Instructor:* Charlie Nuttelman, Ph.D. | *Date:* Sep 15, 2023  
-  - This specialization consists of 3 courses:  
-    1. Excel/VBA for Creative Problem Solving, Part 1  
-    2. Excel/VBA for Creative Problem Solving, Part 2  
-    3. Excel/VBA for Creative Problem Solving, Part 3 (Projects)  
-  - Covered essential VBA programming skills for Excel, including user-defined functions, string functions, iterating through worksheets/workbooks, and creating user forms.  
-  - Applied learning in real-world projects through a capstone design course.  
-  - **Verification:** [Verify Certificate](https://coursera.org/verify/specialization/ZQ7CFZSYQ8LU)  
+<details>
+  <summary><strong>Using Machine Learning to Predict Worker Task Completion Time and Optimizing Workflow for Line Balancing with Gurobi</strong></summary>
+  <ul>
+    <li>Developed an ML-based predictive model to estimate <strong>worker-specific task completion times</strong>.</li>
+    <li>Integrated the predictions into a <strong>Gurobi optimization model</strong> to minimize total makespan through efficient task allocation.</li>
+    <li>Enabled better resource utilization and improved production throughput.</li>
+    <li><strong>Technologies:</strong> Python (Scikit-learn, Pandas), Gurobi, Machine Learning, Optimization</li>
+  </ul>
+</details>
 
-- **Introduction to Deep Learning with PyTorch**  
-  - *Issued by:* **DataCamp** | *Instructor:* Jonathan Cornelissen, CEO | *Date:* Mar 16, 2025  
-  - Covered foundational deep learning concepts using PyTorch, including tensors, automatic differentiation, neural networks, and model training.  
-  - Hands-on learning experience with practical implementation of deep learning models.  
-  - **Verification:** [Verify Certificate](https://www.datacamp.com/completed/statement-of-accomplishment/course/b49d1a288c93a86143eb3923bf9f448d7b5ee515)  
+<details>
+  <summary><strong>Traffic Simulation & Optimization at LamaBazar Intersection</strong></summary>
+  <ul>
+    <li><strong>Conference Paper:</strong> 8th International Conference on Engineering Research, Innovation and Education</li>
+    <li>Developed an <strong>Arena simulation model</strong> to optimize traffic flow at a congested <strong>4-way intersection</strong> in Sylhet.</li>
+    <li>Proposed <strong>dedicated turning lanes</strong>, reducing waiting time by <strong>50–60%</strong> and improving lane utilization to <strong>92%</strong>.</li>
+    <li><strong>Technologies:</strong> Arena Simulation, Python, Excel</li>
+  </ul>
+</details>
 
-- **Power BI and Tableau for Data Visualization [2-in-1 Bundle]**  
-  - *Issued by:* **Udemy** | *Instructor:* Start-Tech Academy | *Date:* March 29, 2025  
-  - Completed a comprehensive 17.5-hour course covering business intelligence and data visualization using Power BI and Tableau.  
-  - Gained hands-on experience in creating interactive dashboards, data cleaning, and performing data analysis for actionable insights.  
-  - **Verification:** [Verify Certificate](https://www.udemy.com/certificate/UC-58ead20f-32a4-4347-9d6a-0419c59d14a1/)
+<details>
+  <summary><strong>Dual-Prediction System for Traffic Density & Vehicle Energy Consumption Using Machine Learning</strong></summary>
+  <ul>
+    <li>Built a <strong>Python-based ML model</strong> for <strong>real-time traffic density and fuel consumption prediction</strong>.</li>
+    <li>Aids in <strong>route optimization</strong> and <strong>fuel efficiency</strong> for urban transportation.</li>
+    <li><strong>Technologies:</strong> Python (Pandas, Scikit-learn), Machine Learning, Data Science</li>
+  </ul>
+</details>
 
-- **Six Sigma White Belt**  
-  - *Issued by:* **Council for Six Sigma Certification (CSSC)** | *Date:* April 25th, 2025  
-  - Successfully completed and demonstrated proficiency in the curriculum set forth by the Council for Six Sigma Certification to be awarded the title of Certified White Belt.  
-  - Certification Number: kWGBvKBpyw  
- 
-- **Python Data Structures**  
-  - *Issued by:* **University of Michigan (via Coursera)** | *Instructor:* Charles Severance | *Date:* Jul 19, 2023  
-  - Covered essential Python data structures, including lists, dictionaries, tuples, and sets, and their applications in solving real-world problems.  
-  - **Verification:** [Verify Certificate](http://coursera.org/verify/ZLMVHSWHL36U)  
+<details>
+  <summary><strong>Bottleneck Analysis & Scheduling Optimization at Premium Fish & Agro Ind. Ltd.</strong></summary>
+  <ul>
+    <li>Conducted a <strong>bottleneck analysis</strong> of the production floor using <strong>data-driven methods</strong>.</li>
+    <li>Applied <strong>scheduling techniques</strong> to reduce <strong>delays and increase efficiency</strong>.</li>
+    <li><strong>Technologies:</strong> Excel, Operations Research, Scheduling Algorithms</li>
+  </ul>
+</details>
 
-- **Using Python to Access Web Data**  
-  - *Issued by:* **University of Michigan (via Coursera)** | *Instructor:* Charles Severance | *Date:* Jul 30, 2023  
-  - Explored how to use Python to retrieve, parse, and process web data using APIs, web scraping, and working with HTML, XML, and JSON data formats.  
-  - **Verification:** [Verify Certificate](http://coursera.org/verify/V9LZRQHRYYPQ)  
+<details>
+  <summary><strong>Excel-ChatGPT Integration: Automating Web Scraping & AI Responses with VBA</strong></summary>
+  <ul>
+    <li>Integrated <strong>ChatGPT with Excel VBA</strong> to automate <strong>web scraping</strong> and instant AI responses.</li>
+    <li>Streamlined data extraction and <strong>enhanced workflow automation</strong>.</li>
+    <li><strong>Technologies:</strong> Excel VBA, OpenAI API, Web Scraping</li>
+  </ul>
+</details>
 
-- **Programming for Everybody (Getting Started with Python)**  
-  - *Issued by:* **University of Michigan (via Coursera)** | *Instructor:* Charles Severance | *Date:* Jul 19, 2023  
-  - Introduced the basics of Python programming, including variables, conditional statements, loops, functions, and file handling.  
-  - **Verification:** [Verify Certificate](https://coursera.org/verify/62MHPG8D6GF3)  
+<details>
+  <summary><strong>Object Detection Safety System for Industrial Machinery</strong></summary>
+  <ul>
+    <li>Designed an <strong>Object Detection System</strong> to enhance workplace safety.</li>
+    <li>Prevents machinery-related hazards by identifying risky movements in real time.</li>
+    <li><strong>Technologies:</strong> Computer Vision, Arduino</li>
+  </ul>
+</details>
 
-- **Prompt Engineering for ChatGPT**  
-  - *Issued by:* **Vanderbilt University (via Coursera)** | *Instructor:* Dr. Jules White | *Date:* Jul 11, 2023  
-  - Explored techniques for crafting effective prompts to enhance ChatGPT's responses.  
-  - Covered prompt structuring, contextual optimization, and refining AI-generated outputs.  
-  - **Verification:** [Verify Certificate](https://coursera.org/verify/HURZNQASXAY4)  
-
-- **Everyday Excel**  
-  - *Issued by:* **University of Colorado Boulder (via Coursera)** | *Instructor:* Charlie Nuttelman, Ph.D. | *Date:* Sep 11, 2022  
-  - This specialization consists of 3 courses:  
-    1. Everyday Excel, Part 1  
-    2. Everyday Excel, Part 2  
-    3. Everyday Excel, Part 3 (Projects)  
-  - Gained expertise in performing calculations, data visualization, and financial modeling in Excel.  
-  - Learned advanced techniques such as lookups, dynamic array formulas, and managing large datasets.  
-  - Applied skills in real-world projects through a capstone design course, allowing learners to tailor their experience by choosing projects of varying difficulty levels.  
-  - **Verification:** [Verify Certificate](https://coursera.org/verify/specialization/W/T65Z8DJ3EI)
 
 ---
 
@@ -201,16 +256,6 @@
 
 ---
 <br><br><br>
-<details>
-  <summary><strong>Introduction to Data Science with Python</strong></summary>
-  <ul>
-    <li><em>Issued by:</em> <strong>EDGE Bangladesh</strong> | <em>Date:</em> Aug 10, 2024 *(Approximate, update if needed)*</li>
-    <li>Covered the <strong>fundamentals of data science</strong> and <strong>hands-on Python programming</strong> for data analysis.</li>
-    <li>Learned to work with <strong>data preprocessing, visualization, and exploratory data analysis (EDA)</strong> using real-world datasets.</li>
-    <li>Introduced to <strong>machine learning basics</strong>, including model building and evaluation techniques.</li>
-    <li><strong>Technologies & Tools:</strong> Python (NumPy, Pandas, Matplotlib, Seaborn), Jupyter Notebook, Data Visualization, Machine Learning Basics</li>
-  </ul>
-</details>
 
 
 
