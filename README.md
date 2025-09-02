@@ -45,16 +45,16 @@
 ## Projects <a id="projects"></a>
 
 - **Pre-Assembly Line Analysis and Line Balancing at Walton Hi-Tech Industries Ltd.**
- - Conducted a detailed **Time Study** and **Motion Analysis** on the refrigerator pre-assembly line.
- - Applied **line balancing** techniques to identify bottlenecks and redistribute workloads effectively.
- - Achieved a significant improvement in line efficiency and reduced idle time.
- - Technologies: Excel, Line Balancing, Work Study, Industrial Engineering
+  - Conducted a detailed **Time Study** and **Motion Analysis** on the refrigerator pre-assembly line.
+  - Applied **line balancing** techniques to identify bottlenecks and redistribute workloads effectively.
+  - Achieved a significant improvement in line efficiency and reduced idle time.
+  - Technologies: Excel, Line Balancing, Work Study, Industrial Engineering
 
 - **Using Machine Learning to Predict Worker Task Completion Time and Optimizing Workflow for Line Balancing with Gurobi**
- - Developed an ML-based predictive model to estimate **worker-specific task completion times**.
- - Integrated the predictions into a Gurobi optimization model to minimize total makespan through efficient task allocation.
- - Enabled better resource utilization and improved production throughput.
- - Technologies: Python (Scikit-learn, Pandas), Gurobi, Machine Learning, Optimization
+  - Developed an ML-based predictive model to estimate **worker-specific task completion times**.
+  - Integrated the predictions into a Gurobi optimization model to minimize total makespan through efficient task allocation.
+  - Enabled better resource utilization and improved production throughput.
+  - Technologies: Python (Scikit-learn, Pandas), Gurobi, Machine Learning, Optimization
 
 - **Traffic Simulation & Optimization at LamaBazar Intersection**  
   - **Conference Paper:** [8th International Conference on Engineering Research, Innovation and Education](#)  
