@@ -141,68 +141,112 @@
 ## Certifications <a id="certifications"></a>
 
 <details>
-  <summary><strong>Pre-Assembly Line Analysis and Line Balancing at Walton Hi-Tech Industries Ltd.</strong></summary>
+  <summary><strong>Introduction to Data Science with Python</strong></summary>
   <ul>
-    <li>Conducted a detailed <strong>Time Study</strong> and <strong>Motion Analysis</strong> on the refrigerator pre-assembly line.</li>
-    <li>Applied <strong>line balancing</strong> techniques to identify bottlenecks and redistribute workloads effectively.</li>
-    <li>Achieved a significant improvement in line efficiency and reduced idle time.</li>
-    <li><strong>Technologies:</strong> Excel, Line Balancing, Work Study, Industrial Engineering</li>
+    <li><em>Issued by:</em> <strong>EDGE Bangladesh</strong> | <em>Date:</em> Aug 10, 2024</li>
+    <li>Covered the <strong>fundamentals of data science</strong> and <strong>hands-on Python programming</strong> for data analysis.</li>
+    <li>Learned <strong>data preprocessing, visualization, and exploratory data analysis (EDA)</strong> using real-world datasets.</li>
+    <li>Introduced to <strong>machine learning basics</strong>, including model building and evaluation techniques.</li>
+    <li><strong>Technologies & Tools:</strong> Python (NumPy, Pandas, Matplotlib, Seaborn), Jupyter Notebook, Data Visualization</li>
   </ul>
 </details>
 
 <details>
-  <summary><strong>Using Machine Learning to Predict Worker Task Completion Time and Optimizing Workflow for Line Balancing with Gurobi</strong></summary>
+  <summary><strong>Excel/VBA for Creative Problem Solving</strong></summary>
   <ul>
-    <li>Developed an ML-based predictive model to estimate <strong>worker-specific task completion times</strong>.</li>
-    <li>Integrated the predictions into a <strong>Gurobi optimization model</strong> to minimize total makespan through efficient task allocation.</li>
-    <li>Enabled better resource utilization and improved production throughput.</li>
-    <li><strong>Technologies:</strong> Python (Scikit-learn, Pandas), Gurobi, Machine Learning, Optimization</li>
+    <li><em>Issued by:</em> <strong>University of Colorado Boulder (via Coursera)</strong> | <em>Instructor:</em> Charlie Nuttelman, Ph.D. | <em>Date:</em> Sep 15, 2023</li>
+    <li>This specialization consists of 3 courses:
+      <ol>
+        <li>Excel/VBA for Creative Problem Solving, Part 1</li>
+        <li>Excel/VBA for Creative Problem Solving, Part 2</li>
+        <li>Excel/VBA for Creative Problem Solving, Part 3 (Projects)</li>
+      </ol>
+    </li>
+    <li>Covered essential VBA programming skills including <strong>user-defined functions, string functions, iteration, and user forms</strong>.</li>
+    <li>Applied learning in real-world projects through a capstone design course.</li>
+    <li><strong>Verification:</strong> <a href="https://coursera.org/verify/specialization/ZQ7CFZSYQ8LU">Verify Certificate</a></li>
   </ul>
 </details>
 
 <details>
-  <summary><strong>Traffic Simulation & Optimization at LamaBazar Intersection</strong></summary>
+  <summary><strong>Introduction to Deep Learning with PyTorch</strong></summary>
   <ul>
-    <li><strong>Conference Paper:</strong> 8th International Conference on Engineering Research, Innovation and Education</li>
-    <li>Developed an <strong>Arena simulation model</strong> to optimize traffic flow at a congested <strong>4-way intersection</strong> in Sylhet.</li>
-    <li>Proposed <strong>dedicated turning lanes</strong>, reducing waiting time by <strong>50–60%</strong> and improving lane utilization to <strong>92%</strong>.</li>
-    <li><strong>Technologies:</strong> Arena Simulation, Python, Excel</li>
+    <li><em>Issued by:</em> <strong>DataCamp</strong> | <em>Instructor:</em> Jonathan Cornelissen, CEO | <em>Date:</em> Mar 16, 2025</li>
+    <li>Covered foundational deep learning concepts using PyTorch, including <strong>tensors, automatic differentiation, and neural networks</strong>.</li>
+    <li>Hands-on learning with <strong>model training and evaluation</strong>.</li>
+    <li><strong>Verification:</strong> <a href="https://www.datacamp.com/completed/statement-of-accomplishment/course/b49d1a288c93a86143eb3923bf9f448d7b5ee515">Verify Certificate</a></li>
   </ul>
 </details>
 
 <details>
-  <summary><strong>Dual-Prediction System for Traffic Density & Vehicle Energy Consumption Using Machine Learning</strong></summary>
+  <summary><strong>Power BI and Tableau for Data Visualization [2-in-1 Bundle]</strong></summary>
   <ul>
-    <li>Built a <strong>Python-based ML model</strong> for <strong>real-time traffic density and fuel consumption prediction</strong>.</li>
-    <li>Aids in <strong>route optimization</strong> and <strong>fuel efficiency</strong> for urban transportation.</li>
-    <li><strong>Technologies:</strong> Python (Pandas, Scikit-learn), Machine Learning, Data Science</li>
+    <li><em>Issued by:</em> <strong>Udemy</strong> | <em>Instructor:</em> Start-Tech Academy | <em>Date:</em> Mar 29, 2025</li>
+    <li>Completed a <strong>17.5-hour course</strong> covering <strong>business intelligence and visualization</strong> with Power BI and Tableau.</li>
+    <li>Gained hands-on experience in <strong>dashboards, data cleaning, and analysis</strong>.</li>
+    <li><strong>Verification:</strong> <a href="https://www.udemy.com/certificate/UC-58ead20f-32a4-4347-9d6a-0419c59d14a1/">Verify Certificate</a></li>
   </ul>
 </details>
 
 <details>
-  <summary><strong>Bottleneck Analysis & Scheduling Optimization at Premium Fish & Agro Ind. Ltd.</strong></summary>
+  <summary><strong>Six Sigma White Belt</strong></summary>
   <ul>
-    <li>Conducted a <strong>bottleneck analysis</strong> of the production floor using <strong>data-driven methods</strong>.</li>
-    <li>Applied <strong>scheduling techniques</strong> to reduce <strong>delays and increase efficiency</strong>.</li>
-    <li><strong>Technologies:</strong> Excel, Operations Research, Scheduling Algorithms</li>
+    <li><em>Issued by:</em> <strong>Council for Six Sigma Certification (CSSC)</strong> | <em>Date:</em> Apr 25, 2025</li>
+    <li>Completed and demonstrated proficiency in CSSC’s White Belt curriculum.</li>
+    <li><strong>Certification Number:</strong> kWGBvKBpyw</li>
   </ul>
 </details>
 
 <details>
-  <summary><strong>Excel-ChatGPT Integration: Automating Web Scraping & AI Responses with VBA</strong></summary>
+  <summary><strong>Python Data Structures</strong></summary>
   <ul>
-    <li>Integrated <strong>ChatGPT with Excel VBA</strong> to automate <strong>web scraping</strong> and instant AI responses.</li>
-    <li>Streamlined data extraction and <strong>enhanced workflow automation</strong>.</li>
-    <li><strong>Technologies:</strong> Excel VBA, OpenAI API, Web Scraping</li>
+    <li><em>Issued by:</em> <strong>University of Michigan (via Coursera)</strong> | <em>Instructor:</em> Charles Severance | <em>Date:</em> Jul 19, 2023</li>
+    <li>Covered <strong>lists, dictionaries, tuples, and sets</strong> with real-world applications.</li>
+    <li><strong>Verification:</strong> <a href="http://coursera.org/verify/ZLMVHSWHL36U">Verify Certificate</a></li>
   </ul>
 </details>
 
 <details>
-  <summary><strong>Object Detection Safety System for Industrial Machinery</strong></summary>
+  <summary><strong>Using Python to Access Web Data</strong></summary>
   <ul>
-    <li>Designed an <strong>Object Detection System</strong> to enhance workplace safety.</li>
-    <li>Prevents machinery-related hazards by identifying risky movements in real time.</li>
-    <li><strong>Technologies:</strong> Computer Vision, Arduino</li>
+    <li><em>Issued by:</em> <strong>University of Michigan (via Coursera)</strong> | <em>Instructor:</em> Charles Severance | <em>Date:</em> Jul 30, 2023</li>
+    <li>Explored <strong>APIs, web scraping, and working with HTML, XML, and JSON</strong>.</li>
+    <li><strong>Verification:</strong> <a href="http://coursera.org/verify/V9LZRQHRYYPQ">Verify Certificate</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Programming for Everybody (Getting Started with Python)</strong></summary>
+  <ul>
+    <li><em>Issued by:</em> <strong>University of Michigan (via Coursera)</strong> | <em>Instructor:</em> Charles Severance | <em>Date:</em> Jul 19, 2023</li>
+    <li>Introduced basics of <strong>Python programming</strong>: variables, conditionals, loops, functions, file handling.</li>
+    <li><strong>Verification:</strong> <a href="https://coursera.org/verify/62MHPG8D6GF3">Verify Certificate</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Prompt Engineering for ChatGPT</strong></summary>
+  <ul>
+    <li><em>Issued by:</em> <strong>Vanderbilt University (via Coursera)</strong> | <em>Instructor:</em> Dr. Jules White | <em>Date:</em> Jul 11, 2023</li>
+    <li>Explored techniques for <strong>prompt structuring, context optimization, and refining AI outputs</strong>.</li>
+    <li><strong>Verification:</strong> <a href="https://coursera.org/verify/HURZNQASXAY4">Verify Certificate</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Everyday Excel</strong></summary>
+  <ul>
+    <li><em>Issued by:</em> <strong>University of Colorado Boulder (via Coursera)</strong> | <em>Instructor:</em> Charlie Nuttelman, Ph.D. | <em>Date:</em> Sep 11, 2022</li>
+    <li>This specialization consists of 3 courses:
+      <ol>
+        <li>Everyday Excel, Part 1</li>
+        <li>Everyday Excel, Part 2</li>
+        <li>Everyday Excel, Part 3 (Projects)</li>
+      </ol>
+    </li>
+    <li>Gained expertise in <strong>Excel calculations, data visualization, and financial modeling</strong>.</li>
+    <li>Learned advanced techniques like <strong>lookups, dynamic arrays, and managing large datasets</strong>.</li>
+    <li><strong>Verification:</strong> <a href="https://coursera.org/verify/specialization/W/T65Z8DJ3EI">Verify Certificate</a></li>
   </ul>
 </details>
 
