@@ -201,6 +201,16 @@
 
 ---
 <br><br><br>
+<details>
+  <summary><strong>Introduction to Data Science with Python</strong></summary>
+  <ul>
+    <li><em>Issued by:</em> <strong>EDGE Bangladesh</strong> | <em>Date:</em> Aug 10, 2024 *(Approximate, update if needed)*</li>
+    <li>Covered the <strong>fundamentals of data science</strong> and <strong>hands-on Python programming</strong> for data analysis.</li>
+    <li>Learned to work with <strong>data preprocessing, visualization, and exploratory data analysis (EDA)</strong> using real-world datasets.</li>
+    <li>Introduced to <strong>machine learning basics</strong>, including model building and evaluation techniques.</li>
+    <li><strong>Technologies & Tools:</strong> Python (NumPy, Pandas, Matplotlib, Seaborn), Jupyter Notebook, Data Visualization, Machine Learning Basics</li>
+  </ul>
+</details>
 
 
 
