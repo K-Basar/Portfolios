@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Khairul Basar - Academic Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a1a2e;
+            --secondary: #16213e;
+            --accent: #0f3460;
+            --highlight: #e94560;
+            --text: #2d3436;
+            --text-light: #636e72;
+            --bg: #ffffff;
+            --bg-alt: #f8f9fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Work Sans', sans-serif;
+            color: var(--text);
+            line-height: 1.7;
+            background: var(--bg);
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            animation: slideDown 0.5s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        nav .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.2rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Crimson Pro', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 400;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--highlight);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--highlight);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            margin-top: 80px;
+            padding: 5rem 2rem;
+            background: linear-gradient(135deg, var(--bg-alt) 0%, var(--bg) 100%);
+        }
+
+        .hero .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .hero-content h1 {
+            font-family: 'Crimson Pro', serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-content .subtitle {
+            font-size: 1.3rem;
+            color: var(--highlight);
+            margin-bottom: 2rem;
+            font-weight: 500;
+            animation: fadeInUp 0.8s ease-out 0.2s backwards;
+        }
+
+        .hero-content .description {
+            font-size: 1.05rem;
+            color: var(--text-light);
+            margin-bottom: 2rem;
+            max-width: 700px;
+            animation: fadeInUp 0.8s ease-out 0.4s backwards;
+        }
+
+        .hero-content .seeking {
+            background: var(--accent);
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            font-size: 1rem;
+            animation: fadeInUp 0.8s ease-out 0.6s backwards;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            animation: fadeInUp 0.8s ease-out 0.8s backwards;
+        }
+
+        .btn {
+            padding: 0.9rem 2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: var(--highlight);
+            color: white;
+            border: 2px solid var(--highlight);
+        }
+
+        .btn-primary:hover {
+            background: transparent;
+            color: var(--highlight);
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .hero-image {
+            position: relative;
+            animation: fadeIn 1s ease-out 0.4s backwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .hero-image img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 5rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-family: 'Crimson Pro', serif;
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 3rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: var(--highlight);
+        }
+
+        /* Education */
+        .education-card {
+            background: var(--bg-alt);
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--highlight);
+        }
+
+        .education-card h3 {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .education-card .institution {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .education-card .details {
+            display: flex;
+            gap: 2rem;
+            color: var(--text);
+            font-weight: 500;
+        }
+
+        /* Research Interests */
+        .interests-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+        }
+
+        .interest-card {
+            background: var(--bg-alt);
+            padding: 2rem;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .interest-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-color: var(--highlight);
+        }
+
+        .interest-card h3 {
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .interest-number {
+            background: var(--highlight);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        .interest-card p {
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        /* Publications */
+        .publications-list {
+            display: flex;
+            flex-direction: column;
+            gap: 2.5rem;
+        }
+
+        .publication-card {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .publication-card:hover {
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            transform: translateX(5px);
+        }
+
+        .publication-card h3 {
+            font-size: 1.4rem;
+            color: var(--primary);
+            margin-bottom: 0.8rem;
+            line-height: 1.4;
+        }
+
+        .publication-meta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background: var(--accent);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .badge.award {
+            background: var(--highlight);
+            transition: all 0.3s ease;
+        }
+
+        .badge.award:hover {
+            background: #d63850;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(233, 69, 96, 0.3);
+        }
+
+        .publication-card .abstract {
+            color: var(--text-light);
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        /* Projects */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: var(--bg-alt);
+            padding: 2rem;
+            border-radius: 10px;
+            border-top: 4px solid var(--highlight);
+            transition: all 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card h3 {
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .project-card p {
+            color: var(--text-light);
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tech-tag {
+            background: white;
+            padding: 0.4rem 0.9rem;
+            border-radius: 5px;
+            font-size: 0.85rem;
+            color: var(--accent);
+            border: 1px solid var(--accent);
+        }
+
+        /* Experience */
+        .experience-timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .experience-timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--highlight);
+        }
+
+        .experience-item {
+            position: relative;
+            margin-bottom: 3rem;
+            padding-left: 2rem;
+        }
+
+        .experience-item::before {
+            content: '';
+            position: absolute;
+            left: -2rem;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: var(--highlight);
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px var(--highlight);
+        }
+
+        .experience-item h3 {
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 0.3rem;
+        }
+
+        .experience-item .company {
+            color: var(--text-light);
+            font-size: 1.05rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .experience-item .period {
+            color: var(--highlight);
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .experience-item ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .experience-item li {
+            padding-left: 1.5rem;
+            position: relative;
+            margin-bottom: 0.5rem;
+            color: var(--text-light);
+        }
+
+        .experience-item li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--highlight);
+        }
+
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .skill-category {
+            background: var(--bg-alt);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .skill-category h3 {
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .skill-category h3::before {
+            content: '●';
+            color: var(--highlight);
+            font-size: 1.5rem;
+        }
+
+        .skill-category p {
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        /* Achievements & Certifications */
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+        }
+
+        .list-card {
+            background: var(--bg-alt);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .list-card h3 {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .list-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .list-card li {
+            padding: 0.8rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: var(--text-light);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .list-card li:last-child {
+            border-bottom: none;
+        }
+
+        .list-card li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--highlight);
+            font-weight: bold;
+        }
+
+        /* Contact */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .contact-card {
+            background: var(--bg-alt);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-card h3 {
+            font-size: 1.2rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-card a {
+            color: var(--highlight);
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+
+        /* References */
+        .references-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .reference-card {
+            background: white;
+            border: 2px solid var(--bg-alt);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .reference-card h3 {
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .reference-card .title {
+            color: var(--text-light);
+            margin-bottom: 0.3rem;
+        }
+
+        .reference-card .department {
+            color: var(--text);
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .reference-card p {
+            color: var(--text-light);
+            margin-bottom: 0.3rem;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        /* Mobile Menu Toggle */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background: var(--primary);
+            transition: all 0.3s ease;
+        }
+
+        /* Responsive */
+        @media (max-width: 968px) {
+            .hero .container {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-image {
+                max-width: 350px;
+                margin: 0 auto;
+            }
+
+            .menu-toggle {
+                display: flex;
+            }
+
+            .nav-links {
+                position: fixed;
+                top: 70px;
+                right: -100%;
+                width: 250px;
+                height: calc(100vh - 70px);
+                background: white;
+                flex-direction: column;
+                padding: 2rem;
+                box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+                transition: right 0.3s ease;
+                align-items: flex-start;
+                gap: 1.5rem;
+            }
+
+            .nav-links.active {
+                right: 0;
+            }
+
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+
+            .interests-grid,
+            .projects-grid,
+            .skills-grid,
+            .references-grid {
+                grid-template-columns: 1fr;
+            }
+
+            section h2 {
+                font-size: 2rem;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">Portfolio.</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#education" onclick="closeMenu()">Education</a></li>
+                <li><a href="#research" onclick="closeMenu()">Research Interest</a></li>
+                <li><a href="#publications" onclick="closeMenu()">Publications</a></li>
+                <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+                <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+                <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Md. Khairul Basar</h1>
+                <div class="subtitle">Aspiring Researcher and Graduate Engineering Student</div>
+                <p class="description">
+                    I am <strong>Md. Khairul Basar</strong>, a recent graduate of Industrial and Production Engineering at <strong>Shahjalal University of Science and Technology (SUST)</strong> with a CGPA of 3.49/4.00. I have a strong foundation in operation research, data science, and AI/ML, which shaped my research journey. My research is dedicated to developing human-centric, safe, and reliable models for industrial systems, transportation, and process optimization.
+                </p>
+                <div class="seeking">
+                    🎯 Currently seeking MSc in Computer Science with a focus on AI and ML research
+                </div>
+                <div class="cta-buttons">
+                    <a href="Md._Khairul_Basar_CV.pdf" class="btn btn-primary" target="_blank">Download CV</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Replace the src below with your actual photo URL -->
+                <!-- You can upload your photo to imgur.com or use a direct link -->
+                <img src="profile.jpg" alt="Md. Khairul Basar">
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-card">
+            <h3><a href="https://sust.edu/departments/ipe" target="_blank" style="text-decoration: underline; color: inherit;">Bachelor of Science in Industrial and Production Engineering</a></h3>
+            <div class="institution"><a href="https://sust.edu/" target="_blank" style="text-decoration: underline; color: inherit;">Shahjalal University of Science and Technology (SUST), Bangladesh</a></div>
+            <div class="details">
+                <span>📅 Feb 2020 – Aug 2025</span>
+                <span>📊 CGPA: 3.49 / 4.00</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section id="research">
+        <h2>Research Interests</h2>
+        <div class="interests-grid">
+            <div class="interest-card">
+                <h3><span class="interest-number">1</span> Artificial Intelligence and Machine Learning</h3>
+                <p>I am interested in developing and applying machine learning and artificial intelligence techniques to solve complex, real-world problems in industrial, transportation, and decision-support systems. My focus includes supervised learning, ensemble methods, and deep learning models for prediction, classification, and pattern discovery using real operational data.</p>
+            </div>
+
+            <div class="interest-card">
+                <h3><span class="interest-number">2</span> Predict-Then-Optimize Frameworks</h3>
+                <p>My research interest lies in integrating predictive machine learning models with mathematical optimization to create end-to-end decision-support frameworks. I focus on Predict-Then-Optimize pipelines where uncertainty-aware predictions inform downstream optimization models, such as mixed-integer programming and scheduling.</p>
+            </div>
+
+            <div class="interest-card">
+                <h3><span class="interest-number">3</span> Machine Learning–Based Optimization</h3>
+                <p>I am interested in combining machine learning with optimization techniques to improve planning, allocation, and scheduling decisions. This includes using ML models to approximate cost functions, estimate parameters, and guide optimization solvers in large-scale or data-driven environments.</p>
+            </div>
+
+            <div class="interest-card">
+                <h3><span class="interest-number">4</span> Data-Driven Decision Support Systems</h3>
+                <p>I aim to design intelligent decision-support systems that leverage data analytics, machine learning, and optimization to assist managers and policymakers. My work emphasizes transforming raw industrial and operational data into actionable insights through predictive modeling, optimization, and visualization tools.</p>
+            </div>
+
+            <div class="interest-card">
+                <h3><span class="interest-number">5</span> Simulation and Smart Industrial Systems</h3>
+                <p>My interest includes simulation-based modeling of industrial and service systems to evaluate performance under different operational scenarios. I focus on combining discrete-event simulation with data-driven models to analyze system behavior, identify bottlenecks, and test improvement strategies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+        <h2>Publications</h2>
+        <div class="publications-list">
+            <div class="publication-card">
+                <h3>Optimizing Worker–Task Allocation in a Fish Processing Factory Using a Predict-Then-Optimize Approach</h3>
+                <div class="publication-meta">
+                    <span class="badge">ARPN Journal of Engineering and Applied Sciences</span>
+                    <span class="badge">Accepted</span>
+                </div>
+                <p class="abstract">Most industries in developing countries are highly dependent on tasks that involve human effort. Allocation of manual tasks to workers is thus a very important factor for reducing lead time in labor-dependent industries. The goal of this research lies in improving worker-task allocation in labor-dependent industries using a two-stage Predict-then-Optimize framework. In this study, machine learning was used to predict task completion time for each worker-task pair, and the results gained from the prediction model were then optimized through mixed-integer programming. Random Forest Regressor (RFR) demonstrated the best performance with the lowest MAPE (6.63%) and the highest R² score (0.98) for the prediction of task completion times. Using these predictions, task allocation was optimized, cutting total process time by 67.5%—from over 50 minutes to just 16.3 minutes.</p>
+            </div>
+
+            <div class="publication-card">
+                <h3>A Bi-Objective Optimization Model for Real-World Task Allocation in RMG Sewing Lines</h3>
+                <div class="publication-meta">
+                    <span class="badge">8th IEOM Bangladesh International Conference</span>
+                    <a href="best_track_paper.pdf" target="_blank" style="text-decoration: none;">
+                        <span class="badge award" style="cursor: pointer;">Best Track Paper 📄</span>
+                    </a>
+                </div>
+                <p class="abstract">A data-driven approach for task allocation can significantly improve sewing line efficiency by ensuring that the workload is evenly distributed among operators based on their individual skill level and speed, thereby reducing non-productive time and optimizing machine utilization. Our approach is to develop an optimization model that dynamically assigns tasks to operators, with the objective of minimizing total line completion time and maximizing line efficiency. Improvement after using this approach is expected to be a significant increase in line efficiency (10-15%) and a reduction in production lead time.</p>
+            </div>
+
+            <div class="publication-card">
+                <h3>Data-Driven Prediction and Recommendation of Elective Courses for Master's Students</h3>
+                <div class="publication-meta">
+                    <span class="badge">8th IEOM Bangladesh International Conference</span>
+                    <span class="badge">Accepted</span>
+                </div>
+                <p class="abstract">This study presents a machine learning–based framework designed to predict students' academic performance in elective courses and the resulting impact on other core courses within the same semester. The Random Forest Classification algorithm achieved the highest performance with 78% accuracy, an R² score of 0.80, and a MAPE of 22%, effectively capturing nonlinear dependencies between core and elective results. These findings demonstrate the potential of machine learning for data-driven academic advising, enabling universities to recommend electives that align with students' academic strengths.</p>
+            </div>
+
+            <div class="publication-card">
+                <h3>Maintaining Lane Discipline Can Reduce the Waiting Time in a Road Intersection: A Simulation Study</h3>
+                <div class="publication-meta">
+                    <span class="badge">ICERIE 2025</span>
+                    <span class="badge">Published</span>
+                </div>
+                <p class="abstract">Traffic congestion is now a major issue in Bangladesh. Our study focuses on reducing idle time in traffic signals by maintaining lanes for each road at LamaBazar 4-way junction in Sylhet city. The simulation result has shown that introducing dedicated turning lanes for left-turning, right-turning, and straight-moving vehicles significantly impact traffic flow resulting in reducing idle time for traffic. Overall road segments, the waiting time has been lowered by 50% to 60%. DOI: <a href="https://doi.org/10.2991/978-94-6463-884-4_85" target="_blank" style="color: var(--highlight);">10.2991/978-94-6463-884-4_85</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Excel-ChatGPT Integration: Automating Web Scraping & AI Responses with VBA</h3>
+                <p>Integrated ChatGPT with Excel VBA to automate web scraping and instant AI responses. Streamlined data extraction and enhanced workflow automation.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Excel VBA</span>
+                    <span class="tech-tag">OpenAI API</span>
+                    <span class="tech-tag">Web Scraping</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Object Detection Safety System for Industrial Machinery</h3>
+                <p>Designed an Object Detection System to enhance workplace safety. Prevents machinery-related hazards by identifying risky movements in real time.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Computer Vision</span>
+                    <span class="tech-tag">Arduino</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Dual-Prediction System for Traffic Density & Vehicle Energy Consumption</h3>
+                <p>Built a Python-based ML model for real-time traffic density and fuel consumption prediction. Aids in route optimization and fuel efficiency for urban transportation.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Scikit-learn</span>
+                    <span class="tech-tag">Machine Learning</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Pre-Assembly Line Analysis and Line Balancing at Walton Hi-Tech Industries</h3>
+                <p>Conducted detailed Time Study and Motion Analysis on the refrigerator pre-assembly line. Applied line balancing techniques to identify bottlenecks and redistribute workloads effectively, achieving significant improvement in line efficiency.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Excel</span>
+                    <span class="tech-tag">Line Balancing</span>
+                    <span class="tech-tag">Industrial Engineering</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Bottleneck Analysis & Scheduling Optimization at Premium Fish & Agro Ind.</h3>
+                <p>Conducted a bottleneck analysis of the production floor using data-driven methods. Applied scheduling techniques to reduce delays and increase efficiency.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Excel</span>
+                    <span class="tech-tag">Operations Research</span>
+                    <span class="tech-tag">Scheduling Algorithms</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <h2>Industrial & Job Experience</h2>
+        <div class="experience-timeline">
+            <div class="experience-item">
+                <h3>Intern</h3>
+                <div class="company">Walton Hi-Tech Industries PLC</div>
+                <div class="period">May 2025</div>
+                <ul>
+                    <li>Conducted time study, motion analysis, and line balancing</li>
+                    <li>Applied Lean tools including 5S, Kanban, OEE</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Remote Employee</h3>
+                <div class="company">Industrial 3D Solutions</div>
+                <div class="period">Dec 2024 – Jun 2025</div>
+                <ul>
+                    <li>Developed Excel–VBA automation tools</li>
+                    <li>Supported laboratory product supply coordination</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Industrial Visit</h3>
+                <div class="company">Bangladesh Industrial Technical Assistance Centre (BITAC), Dhaka</div>
+                <div class="period">12 days</div>
+                <ul>
+                    <li>Gained insights into conventional and non-conventional manufacturing processes</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Industrial Visit</h3>
+                <div class="company">Khadim Ceramics, Sylhet</div>
+                <div class="period">1 day</div>
+                <ul>
+                    <li>Acquired exposure to industrial ceramic manufacturing processes</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Programming & Data Science</h3>
+                <p>NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, PyTorch, LangChain, CrewAI</p>
+            </div>
+
+            <div class="skill-category">
+                <h3>Machine Learning</h3>
+                <p>Statistical ML Methods, Deep Learning, NLP, Computer Vision, Graph Neural Networks (GNNs), Agentic Decision-Making, Agentic LLMs, AI Reasoning, RAG</p>
+            </div>
+
+            <div class="skill-category">
+                <h3>Optimization & Simulation</h3>
+                <p>LP, NLP, MILP, Convex Optimization, Discrete Optimization, Simulation Modeling, Gurobi, Scheduling, Arena Simulation</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements & Certifications -->
+    <section>
+        <div class="two-column">
+            <div class="list-card">
+                <h3>Achievements</h3>
+                <ul>
+                    <li>Awarded a 60% scholarship for the ISCEA Prize Case Competition 2024</li>
+                    <li>Finalist in IPE Case Quest 1.0</li>
+                </ul>
+            </div>
+
+            <div class="list-card">
+                <h3>Certifications</h3>
+                <ul>
+                    <li>Introduction to Data Science with Python – EDGE Bangladesh</li>
+                    <li>Introduction to Deep Learning with PyTorch – DataCamp</li>
+                    <li>Excel/VBA for Creative Problem Solving – University of Colorado Boulder</li>
+                    <li>Six Sigma White Belt – CSSC</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h3>📧 Email</h3>
+                <a href="mailto:kbasar.bq@gmail.com"><span class="__cf_email__" data-cfemail="224940435143500c405362454f434b4e0c414d4f">kbasar.bq@gmail.com</span></a>
+            </div>
+            <div class="contact-card">
+                <h3>📱 WhatsApp</h3>
+                <a href="https://wa.me/+8801822887922">+880 1822-887922</a>
+            </div>
+            <div class="contact-card">
+                <h3>💼 LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/md-khairul-basar-b19282247/" target="_blank">Md. Khairul Basar</a>
+            </div>
+            <div class="contact-card">
+                <h3>🌐 Portfolio</h3>
+                <a href="https://k-basar.github.io/Portfolios/" target="_blank">k-basar.github.io</a>
+            </div>
+        </div>
+
+        <h2 style="margin-top: 4rem;">Interests</h2>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h3>📖 Poetry</h3>
+                <p style="color: var(--text-light); margin-top: 0.5rem;">Writing and reading poetry</p>
+            </div>
+            <div class="contact-card">
+                <h3>♟️ Chess</h3>
+                <p style="color: var(--text-light); margin-top: 0.5rem;">Strategic thinking and gameplay</p>
+            </div>
+            <div class="contact-card">
+                <h3>📚 Reading</h3>
+                <p style="color: var(--text-light); margin-top: 0.5rem;">Exploring books and literature</p>
+            </div>
+            <div class="contact-card">
+                <h3>✈️ Travelling</h3>
+                <p style="color: var(--text-light); margin-top: 0.5rem;">Discovering new places</p>
+            </div>
+        </div>
+
+        <h2 style="margin-top: 4rem;">References</h2>
+        <div class="references-grid">
+            <div class="reference-card">
+                <h3>Dr. Abul Mukid Mohammad Mukaddes</h3>
+                <div class="title">Professor</div>
+                <div class="department">Department of Industrial & Production Engineering, SUST</div>
+                <p>📞 +880 1777-891684</p>
+                <p>📧 <a href="mailto:mukaddes-ipe@sust.edu"><span class="__cf_email__" data-cfemail="224940435143500c405362454f434b4e0c414d4f"> mukaddes-ipe@sust.edu</a></p>
+            </div>
+
+            <div class="reference-card">
+                <h3>Dr. Mohammad Shahidur Rahman</h3>
+                <div class="title">Professor</div>
+                <div class="department">Department of Computer Science & Engineering, SUST</div>
+                <p>📞 +880 1914-930807</p>
+                <p>📧 <a href="mailto:rahmanms@sust.edu"><span class="__cf_email__" data-cfemail="224940435143500c405362454f434b4e0c414d4f"> rahmanms@sust.edu</a></p>
+            </div>
+
+            <div class="reference-card">
+                <h3>Dr. Muhammad Mahamood Hasan</h3>
+                <div class="title">Professor</div>
+                <div class="department">Department of Industrial & Production Engineering, SUST</div>
+                <p>📞 +880 1937-785361</p>
+                <p>📧 <a href="mailto:muhammad.hasan-ipe@sust.edu"><span class="__cf_email__" data-cfemail="224940435143500c405362454f434b4e0c414d4f"> muhammad.hasan-ipe@sust.edu</a></p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Md. Khairul Basar. All rights reserved.</p>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Download CV function
+        function downloadCV() {
+            // Link to your Google Drive CV or hosted CV
+            // Replace this URL with your actual CV link
+            window.open('https://k-basar.github.io/Portfolios/', '_blank');
+            
+            // Alternatively, if you have a direct CV link, use:
+            // window.open('YOUR_CV_DIRECT_LINK_HERE', '_blank');
+        }
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Mobile menu toggle
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+
+        function closeMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.remove('active');
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navLinks = document.getElementById('navLinks');
+            const menuToggle = document.querySelector('.menu-toggle');
+            
+            if (!navLinks.contains(event.target) && !menuToggle.contains(event.target)) {
+                navLinks.classList.remove('active');
+            }
+        });
+
+        // Observe all cards and sections
+        document.querySelectorAll('.interest-card, .publication-card, .project-card, .experience-item, .skill-category').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'all 0.6s ease-out';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
