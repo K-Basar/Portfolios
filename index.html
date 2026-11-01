@@ -205,6 +205,29 @@
             transform: translateY(-2px);
         }
 
+        .academic-links {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+            animation: fadeInUp 0.8s ease-out 1s backwards;
+        }
+        
+        .academic-links a {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            padding-bottom: 2px;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .academic-links a:hover {
+            color: var(--highlight);
+            border-bottom-color: var(--highlight);
+        }
+
         .hero-image {
             position: relative;
             animation: fadeIn 1s ease-out 0.4s backwards;
@@ -774,6 +797,10 @@
                 <div class="cta-buttons">
                     <a href="Md._Khairul_Basar_CV.pdf" class="btn btn-primary" target="_blank">Download CV</a>
                     <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+                <div class="academic-links">
+                    <a href="https://scholar.google.com/citations?user=MSbBVpQAAAAJ&hl=en" target="_blank">🎓 Google Scholar</a>
+                    <a href="https://orcid.org/0009-0005-7153-1938" target="_blank">🆔 ORCID: 0009-0005-7153-1938</a>
                 </div>
             </div>
             <div class="hero-image">
